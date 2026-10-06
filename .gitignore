@@ -1,0 +1,10 @@
+# Never commit secrets or local state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local agent output
+*.local.md
+scratch/
+.DS_Store
